@@ -1,5 +1,5 @@
 const { Client } = require("discord.js");
-const { TOKEN, PREFIX } = require("./config");
+const { PREFIX } = require("./config");
 const client = new Client();
 
 client.on("ready", () => {
@@ -22,4 +22,5 @@ client.on("message", message => {
     }
 });
 
-client.login("TOKEN");
+client.login(process.env.AUTHORIZATION);
+");
