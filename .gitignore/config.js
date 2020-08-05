@@ -1,2 +1,2 @@
-exports.TOKEN = "process.env.authorization";
+exports.TOKEN = "process.env.AUTHORIZATION";
 exports.PREFIX = "+";
